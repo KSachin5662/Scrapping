@@ -16,7 +16,7 @@ price = soup.find_all('span',class_='rupee')
 l_price = []
 for i in price:
     l_price.append('₹'+i.text)
-Alldata = {'Item':l_titles,'Prices':l_price}
+Alldata = {'Item':l_titles,"Prices":l_price}
 df = pd.DataFrame.from_dict(Alldata, orient='index')
 df = df.transpose()
 print('Nizampet Mehfil Restaurent Data')
