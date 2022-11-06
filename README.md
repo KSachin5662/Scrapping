@@ -1,1 +1,1 @@
-# Scrapping Mehfil Restaurant Data To Campare Prices of Zomato and Swiggy
+# Scrapping Mehfil Restaurant Data To Campare Prices from Zomato and Swiggy
